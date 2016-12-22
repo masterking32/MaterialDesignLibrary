@@ -12,12 +12,12 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.masterking32:MaterialDesign:1.5@aar'
+    compile 'com.github.masterking32:MaterialDesignLibrary:1.5'
 }
 ```
 
 
-##You can use it Two 
+##You can use it two 
 
 ```xml
 repositories {
@@ -26,6 +26,6 @@ repositories {
 
 dependencies {
 	compile 'com.android.support:support-v4:25.1.0'
-    compile 'com.github.masterking32:MaterialDesign:1.5@aar'
+    compile 'com.github.masterking32:MaterialDesignLibrary:1.5'
 }
 ```
