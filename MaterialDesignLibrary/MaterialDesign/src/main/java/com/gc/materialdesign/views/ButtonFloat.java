@@ -87,17 +87,17 @@ public class ButtonFloat extends Button{
 		
 		// Set Ripple Color
 		// Color by resource
-		int rippleColor = attrs.getAttributeResourceValue(MATERIALDESIGNXML,
-				"rippleColor", -1);
-		if (rippleColor != -1) {
-			setRippleColor(getResources().getColor(rippleColor));
+		int MrippleColor = attrs.getAttributeResourceValue(MATERIALDESIGNXML,
+				"MrippleColor", -1);
+		if (MrippleColor != -1) {
+			setMrippleColor(getResources().getColor(MrippleColor));
 		} else {
 			// Color by hexadecimal
-			int background = attrs.getAttributeIntValue(MATERIALDESIGNXML, "rippleColor", -1);
+			int background = attrs.getAttributeIntValue(MATERIALDESIGNXML, "MrippleColor", -1);
 			if (background != -1)
-				setRippleColor(background);
+				setMrippleColor(background);
 			else
-				setRippleColor(makePressColor());
+				setMrippleColor(makePressColor());
 		}
 		// Icon of button
 		int iconResource = attrs.getAttributeResourceValue(MATERIALDESIGNXML,"iconDrawable",-1);
@@ -180,8 +180,8 @@ public class ButtonFloat extends Button{
 		return null;
 	}
 	
-	public void setRippleColor(int rippleColor) {
-		this.rippleColor = rippleColor;
+	public void setMrippleColor(int MrippleColor) {
+		this.MrippleColor = MrippleColor;
 	}
 	
 	public void show(){
