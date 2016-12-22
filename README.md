@@ -17,7 +17,7 @@ dependencies {
 ```
 
 
-##You can use it two 
+##You can use it too 
 
 ```xml
 repositories {
